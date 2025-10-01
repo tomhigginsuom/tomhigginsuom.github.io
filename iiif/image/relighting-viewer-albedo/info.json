@@ -1,0 +1,56 @@
+{
+    "@context": "http://iiif.io/api/image/3/context.json",
+    "id": "tomhigginsuom.github.io/iiif/image/relighting-viewer-albedo",
+    "type": "ImageService3",
+    "profile": "level0",
+    "extraFormats": [
+        "png"
+    ],
+    "preferredFormats": [
+        "png",
+        "jpg"
+    ],
+    "protocol": "http://iiif.io/api/image",
+    "width": 6500,
+    "height": 4335,
+    "sizes": [
+        {
+            "width": 204,
+            "height": 136
+        },
+        {
+            "width": 407,
+            "height": 271
+        },
+        {
+            "width": 813,
+            "height": 542
+        },
+        {
+            "width": 1625,
+            "height": 1084
+        },
+        {
+            "width": 3250,
+            "height": 2168
+        },
+        {
+            "width": 6500,
+            "height": 4335
+        }
+    ],
+    "tiles": [
+        {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+                32,
+                16,
+                8,
+                4,
+                2,
+                1
+            ]
+        }
+    ]
+}
