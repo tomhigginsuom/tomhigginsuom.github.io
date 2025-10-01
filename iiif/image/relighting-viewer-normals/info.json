@@ -1,6 +1,6 @@
 {
     "@context": "http://iiif.io/api/image/3/context.json",
-    "id": "tomhigginsuom.github.io/iiif/image/relighting-viewer-normals",
+    "id": "https://tomhigginsuom.github.io/iiif/image/relighting-viewer-normals",
     "type": "ImageService3",
     "profile": "level0",
     "extraFormats": [

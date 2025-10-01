@@ -1,9 +1,9 @@
 {
     "@context": [
         "http://iiif.io/api/presentation/3/context.json",
-        "tomhigginsuom.github.io/contexts/lightingmap/context/json"
+        "https://tomhigginsuom.github.io/contexts/lightingmap/context/json"
     ],
-    "id": "tomhigginsuom.github.io/iiif/manifest/relighting-viewer.json",
+    "id": "https://tomhigginsuom.github.io/iiif/manifest/relighting-viewer.json",
     "label": {
         "en": [
             "Persian 97"
@@ -55,7 +55,7 @@
     ],
     "homepage": [
         {
-            "id": "tomhigginsuom.github.io/objects/relighting-viewer",
+            "id": "https://tomhigginsuom.github.io/objects/relighting-viewer",
             "type": "Text",
             "label": {
                 "en": [
@@ -79,16 +79,16 @@
             },
             "logo": [
                 {
-                    "id": "tomhigginsuom.github.io/iiif/image/logo/full/256,/0/default.jpg",
+                    "id": "https://tomhigginsuom.github.io/iiif/image/logo/full/256,/0/default.jpg",
                     "type": "Image",
                     "service": [
                         {
-                            "@id": "tomhigginsuom.github.io/iiif/image/logo",
+                            "@id": "https://tomhigginsuom.github.io/iiif/image/logo",
                             "@type": "ImageService2",
                             "profile": "http://iiif.io/api/image/2/level1.json"
                         },
                         {
-                            "id": "tomhigginsuom.github.io/iiif/image/logo",
+                            "id": "https://tomhigginsuom.github.io/iiif/image/logo",
                             "type": "ImageService3",
                             "profile": "level1"
                         }
@@ -100,16 +100,16 @@
     ],
     "thumbnail": [
         {
-            "id": "tomhigginsuom.github.io/iiif/image/thumbnail/full/256,/0/default.jpg",
+            "id": "https://tomhigginsuom.github.io/iiif/image/thumbnail/full/256,/0/default.jpg",
             "type": "Image",
             "service": [
                 {
-                    "@id": "tomhigginsuom.github.io/iiif/image/thumbnail",
+                    "@id": "https://tomhigginsuom.github.io/iiif/image/thumbnail",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level1.json"
                 },
                 {
-                    "id": "tomhigginsuom.github.io/iiif/image/thumbnail",
+                    "id": "https://tomhigginsuom.github.io/iiif/image/thumbnail",
                     "type": "ImageService3",
                     "profile": "level1"
                 }
@@ -130,7 +130,7 @@
     },
     "partOf": [
         {
-            "id": "tomhigginsuom.github.io/iiif/collection/fossils",
+            "id": "https://tomhigginsuom.github.io/iiif/collection/fossils",
             "type": "Collection",
             "label": {
                 "en": [
@@ -144,7 +144,7 @@
     ],
     "items": [
         {
-            "id": "tomhigginsuom.github.io/iiif/canvas/canvas-1.json",
+            "id": "https://tomhigginsuom.github.io/iiif/canvas/canvas-1.json",
             "type": "Canvas",
             "label": {
                 "en": [
@@ -155,19 +155,19 @@
             "height": 4335,
             "items": [
                 {
-                    "id": "tomhigginsuom.github.io/iiif/annotationpage/canvas-1.json",
+                    "id": "https://tomhigginsuom.github.io/iiif/annotationpage/canvas-1.json",
                     "type": "AnnotationPage",
                     "items": [
                         {
-                            "id": "tomhigginsuom.github.io/iiif/annotation/canvas-1.json",
+                            "id": "https://tomhigginsuom.github.io/iiif/annotation/canvas-1.json",
                             "type": "Annotation",
                             "motivation": "painting",
-                            "target": "tomhigginsuom.github.io/iiif/canvas/canvas-1.json",
+                            "target": "https://tomhigginsuom.github.io/iiif/canvas/canvas-1.json",
                             "body": {
                                 "type": "Choice",
                                 "items": [
                                     {
-                                        "id": "tomhigginsuom.github.io/iiif/image/relighting-viewer-albedo/full/max/0/default.png",
+                                        "id": "https://tomhigginsuom.github.io/iiif/image/relighting-viewer-albedo/full/max/0/default.png",
                                         "type": "Image",
                                         "format": "image/png",
                                         "label": {
@@ -179,17 +179,17 @@
                                         "height": 4335,
                                         "service": [
                                             {
-                                                "@id": "tomhigginsuom.github.io/iiif/image/relighting-viewer-albedo",
+                                                "@id": "https://tomhigginsuom.github.io/iiif/image/relighting-viewer-albedo",
                                                 "@type": "ImageService2",
                                                 "profile": "http://iiif.io/api/image/2/level1.json"
                                             },
                                             {
-                                                "id": "tomhigginsuom.github.io/iiif/image/relighting-viewer-albedo",
+                                                "id": "https://tomhigginsuom.github.io/iiif/image/relighting-viewer-albedo",
                                                 "type": "ImageService3",
                                                 "profile": "level1"
                                             },
                                             {
-                                                "id": "tomhigginsuom.github.io/iiif/image/lightingmap/relighting-viewer-albedo.json",
+                                                "id": "https://tomhigginsuom.github.io/iiif/image/lightingmap/relighting-viewer-albedo.json",
                                                 "type": "LightingMapExtension",
                                                 "profile": "http://iiif.io/api/extension/lightingmap",
                                                 "mapType": "albedo"
@@ -197,7 +197,7 @@
                                         ]
                                     },
                                     {
-                                        "id": "tomhigginsuom.github.io/iiif/image/relighting-viewer-normals/full/max/0/default.png",
+                                        "id": "https://tomhigginsuom.github.io/iiif/image/relighting-viewer-normals/full/max/0/default.png",
                                         "type": "Image",
                                         "format": "image/png",
                                         "label": {
@@ -209,17 +209,17 @@
                                         "height": 4335,
                                         "service": [
                                             {
-                                                "@id": "tomhigginsuom.github.io/iiif/image/relighting-viewer-normals",
+                                                "@id": "https://tomhigginsuom.github.io/iiif/image/relighting-viewer-normals",
                                                 "@type": "ImageService2",
                                                 "profile": "http://iiif.io/api/image/2/level1.json"
                                             },
                                             {
-                                                "id": "tomhigginsuom.github.io/iiif/image/relighting-viewer-normals",
+                                                "id": "https://tomhigginsuom.github.io/iiif/image/relighting-viewer-normals",
                                                 "type": "ImageService3",
                                                 "profile": "level1"
                                             },
                                             {
-                                                "id": "tomhigginsuom.github.io/iiif/image/lightingmap/relighting-viewer-normals.json",
+                                                "id": "https://tomhigginsuom.github.io/iiif/image/lightingmap/relighting-viewer-normals.json",
                                                 "type": "LightingMapExtension",
                                                 "profile": "http://iiif.io/api/extension/lightingmap",
                                                 "mapType": "normal"
@@ -236,7 +236,7 @@
     ],
     "structures": [
         {
-            "id": "tomhigginsuom.github.io/iiif/range/relighting-viewer/range-1",
+            "id": "https://tomhigginsuom.github.io/iiif/range/relighting-viewer/range-1",
             "type": "Range",
             "label": {
                 "en": [
@@ -245,12 +245,12 @@
             },
             "items": [
                 {
-                    "id": "tomhigginsuom.github.io/iiif/canvas/canvas-1.json",
+                    "id": "https://tomhigginsuom.github.io/iiif/canvas/canvas-1.json",
                     "type": "Canvas"
                 }
             ],
             "start": {
-                "id": "tomhigginsuom.github.io/iiif/canvas/canvas-1.json",
+                "id": "https://tomhigginsuom.github.io/iiif/canvas/canvas-1.json",
                 "type": "Canvas"
             }
         }
